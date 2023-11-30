@@ -1,0 +1,38 @@
+TDS_LP_2023
+
+.gitignor // subir no github 
+
+texto:
+
+.vscode
+output
+.gitignore
+.main.exe
+main
+
+/////
+
+echo "# TDS_DS_LP_2023" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin      https://github.com/arcokicio/TDS_DS_LP_2023.git
+  git push -u origin main
+----
+
+gitbash	
+
+- responsable por conectaar gitbash 
+
+PowerShell
+
+-----
+
+cd..
+cd_temp
+cd_temp>cd ..
+cd>temp> cd teste 
+---
+
+git clone https://github.com/arcokicio/TDS_DS_LP_2023.git
