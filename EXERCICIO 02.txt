@@ -1,0 +1,43 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h> // BIBLIOTECA
+
+int main() // main = principal 
+{
+   
+   /* comentario de bloco 
+   
+   
+    scanf () // ("primeiro parametro mensagem") & recebe + variavel 
+   
+    printf("Hello World"); // usa-se dois paramatros "variavel" "%s = string/char - %f valores fluantes - %d mais capacidade de pós virgulas usa-se
+    // %c char 1 caracter" - "\n quebra linha"
+    // char valor1 = "a"; %c
+    // valor2 = valor1; %d
+    // float valor3 = 3.5; %f
+    // void = qualquer coisa
+    // double valor4 = 4.500 %f %lf
+    
+    */
+    
+    char valor1 = 'A';
+    int valor2 = 1;
+    float valor3 = 3.5;
+    double valor 4 = 4.3000;
+    
+    printf("valor1 %c\n", valor 1);
+    printf("valor2 %d\n", valor 2);
+    printf("valor3 %f\n", valor 3);
+    printf("valor4 %f\n", valor 4);
+    
+    int valorDigitado;
+    printf("Ola digite o valor do tipo int:\n")
+    scanf
+    
+    
