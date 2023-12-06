@@ -1,0 +1,38 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+
+    #include <stdio.h>
+
+int main() {
+    int somaTotal = 0;
+
+    // Loop para percorrer a tabuada de 1 a 9
+    for (int i = 1; i <= 10; ++i) {
+        printf("Tabuada do %d:\n", i);
+
+        // Loop para mostrar e calcular a tabuada
+        for (int j = 1; j <= 10; ++j) {
+            int resultado = i * j;
+            printf("%d x %d = %d\n", i, j, resultado);
+
+            // Acumula o resultado na soma total
+            somaTotal += resultado;
+        }
+
+        printf("\n");  // Adiciona uma linha em branco entre as tabuadas
+    }
+
+    // Mostra a soma total das multiplicacões
+    printf("Soma total das multiplicacoes: %d\n", somaTotal);
+
+    
+}
+
+
+
