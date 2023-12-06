@@ -2,6 +2,12 @@ TDS_LP_2023
 
 .gitignor // subir no github 
 
+
+git config --global user.name myusername
+git config --global user.email myemail
+git config --global github.user myusername
+git config --global github.token mytoken
+
 texto:
 
 .vscode
