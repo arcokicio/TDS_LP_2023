@@ -72,28 +72,24 @@ int main()
     
     for (int i=0; i <7;){
  
-    
     // primeiro valor para somar
     
-    printf ("Digite o primeiro valor para somar entre 1 e 7", %d, x);        
+    printf ("Digite o primeiro valor para somar entre 1 e 7");      
+    scanf("%d", &x);
    
     // segundo valor para somar
-    printf ("Digite o segundo valor para somar entre 1 e 7", %d, y);
+    printf ("Digite o segundo valor para somar entre 1 e 7");
+    scanf("%d", &y);
+    
+    // soma valores escolhidos
+    printf ("A soma dos valores escolhidos é: %d\n", x + y );
+    
+    }   
     
     
-    
-    
-    
-    
-    
-    
-    }
-   
-    
-    
-
     return 0;
 }
+
 
 
 
