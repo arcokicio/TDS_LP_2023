@@ -1,5 +1,13 @@
 TDS_LP_2023
 
+ESTAR NA RAIZ DA PASTA:
+
+git commit - m "NOME DO ARQUIVO"
+git push 
+
+
+
+
 .gitignor // subir no github 
 
 
