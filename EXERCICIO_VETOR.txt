@@ -74,29 +74,23 @@ int main()
  
     // primeiro valor para somar
     
-    printf ("Digite o primeiro valor para somar entre 1 e 7");      
+    printf ("Digite o primeiro valor para somar entre 1 e 7: \n");      
     scanf("%d", &x);
    
     // segundo valor para somar
-    printf ("Digite o segundo valor para somar entre 1 e 7");
+    printf ("Digite o segundo valor para somar entre 1 e 7: \n");
     scanf("%d", &y);
     
     // soma valores escolhidos
     printf ("A soma dos valores escolhidos é: %d\n", x + y );
+    
+    printf("----------------------------------------------------------- \n");
     
     }   
     
     
     return 0;
 }
-
-
-
-
-
-
-
-
 
 3) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
 
