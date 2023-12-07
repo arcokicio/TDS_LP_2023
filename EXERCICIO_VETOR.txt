@@ -56,8 +56,6 @@ Mostre na tela cada valor do vetor A, um em cada linha.*/
     return 0;
 }
 
-2) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final, seu programa deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.
-
 /******************************************************************************
 
 Welcome to GDB Online.
@@ -74,7 +72,7 @@ int main()
     dois valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final, 
     seu programa deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.*/
     
-  
+    // variaveis
     int A[8];
     int x;
     int y;
@@ -83,23 +81,74 @@ int main()
  
     // primeiro valor para somar
     
-    printf ("Digite o primeiro valor para somar entre 1 e 7: \n");      
+    printf ("Digite o primeiro valor para somar entre 1 e 7");   
+    
+    //& Recebe valor 
     scanf("%d", &x);
    
     // segundo valor para somar
-    printf ("Digite o segundo valor para somar entre 1 e 7: \n");
+    printf ("Digite o segundo valor para somar entre 1 e 7");
     scanf("%d", &y);
     
     // soma valores escolhidos
     printf ("A soma dos valores escolhidos é: %d\n", x + y );
     
-    printf("----------------------------------------------------------- \n");
-    
     }   
     
     
     return 0;
+    
+    /* int vetorzao [8];
+    
+    int =0
+    while(i<8){
+        
+        
+        printf("\n Digite posicao %d", i);
+        scanf("%d, &vetorzao[i]");
+        i++;
+    }
+    
+    int x,y;
+    
+    printf ("\n Digite valor X");
+    scanf(%d, &x);
+    
+    printf("\n Digite valor Y");
+    scanf ("%d", &y);
+    
+    for (int i=0; i<0; i++){
+        printf("\n O VALOR DA POSICAO %d: %d",i, vetorzao[i]);
+    }
+    
+    int SomaDosVetores = vetorzao[x] + vetorzao[y];
+    
+    printf("\n A soma da posicao %d e %d e %\n", x, y, SomaDosVetores);
+    
+    return 0;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
 }
+
+
+
+
+
+
+
+
 
 3) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
 
