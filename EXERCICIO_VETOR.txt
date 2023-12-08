@@ -68,7 +68,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    /*2) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também 
+   
+
+
+
+/*2) Faça um programa que leia um vetor de 8 posições e, em seguida, leia também 
     dois valores X e Y quaisquer correspondentes a duas posições no vetor. Ao final, 
     seu programa deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.*/
     
@@ -150,6 +154,8 @@ int main()
 
 
 
+
+
 3) Leia um vetor de 10 posições. Contar e escrever quantos valores pares ele possui.
 
 /******************************************************************************
@@ -213,7 +219,51 @@ int main(){
 
 
 
+
+
+
 4) Faça um programa que receba do usuário um vetor com 10 posições. Em seguida, deverá ser impresso o maior e o menor elemento do vetor.
+
+#include <stdio.h>
+
+int main(){
+    int vetor[10];
+    int vlrMaior=0;
+    int vlrMenor=0;
+
+    for(int i=0; i< 10; i++){
+        printf("\nDigite o valor da posicao %d:", i);
+        scanf("%d", &vetor[i]);
+
+        if(i == 0){
+            vlrMenor = vetor[i];
+            vlrMaior = vetor[i];
+        }
+
+        if(vetor[i] > vlrMaior){
+            vlrMaior = vetor[i];
+        }
+
+        if(vetor[i] < vlrMenor){
+            vlrMenor = vetor[i];
+        }
+
+    }
+
+    for(int i=0; i < 10; i++){
+        printf("\n%d\n", vetor[i]);
+    }
+
+    printf("\n O valor maior he: %d", vlrMaior);
+    printf("\n O valor menor he: %d\n", vlrMenor);
+
+    return 0;
+}
+
+
+
+
+
 
 
 
