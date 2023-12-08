@@ -2,6 +2,8 @@ TDS_LP_2023
 
 ESTAR NA RAIZ DA PASTA:
 
+git status
+git add
 git commit - m "NOME DO ARQUIVO"
 git push 
 
